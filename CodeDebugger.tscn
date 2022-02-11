@@ -1,0 +1,18 @@
+[gd_scene load_steps=2 format=2]
+
+[ext_resource path="res://CodeDebugger.gd" type="Script" id=1]
+
+[node name="CodeDebugger" type="CanvasLayer"]
+script = ExtResource( 1 )
+
+[node name="TextEditor" type="TextEdit" parent="."]
+anchor_left = 0.5
+anchor_top = 1.0
+anchor_right = 0.5
+anchor_bottom = 1.0
+margin_left = -512.0
+margin_top = -181.0
+margin_right = 512.0
+__meta__ = {
+"_edit_use_anchors_": false
+}
